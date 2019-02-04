@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="books" />
+    <orderEntry type="module" module-name="Contacts" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
