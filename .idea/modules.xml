@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Contacts/.idea/Contacts.iml" filepath="$PROJECT_DIR$/../Contacts/.idea/Contacts.iml" />
       <module fileurl="file://$PROJECT_DIR$/../books/.idea/books.iml" filepath="$PROJECT_DIR$/../books/.idea/books.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../reactnd-contacts-complete/.idea/reactnd-contacts-complete.iml" filepath="$PROJECT_DIR$/../reactnd-contacts-complete/.idea/reactnd-contacts-complete.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/reactnd-project-myreads-starter.iml" filepath="$PROJECT_DIR$/.idea/reactnd-project-myreads-starter.iml" />
     </modules>
   </component>

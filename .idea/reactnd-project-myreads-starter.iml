@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="books" />
     <orderEntry type="module" module-name="Contacts" />
+    <orderEntry type="module" module-name="reactnd-contacts-complete" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
