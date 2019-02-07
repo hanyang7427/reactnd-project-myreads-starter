@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom'
 import * as BooksAPI from './BooksAPI'
 import OptionList from './OptionList'
 
+// 查找图书页面
 class SearchBooks extends Component {
   state = {
     query: '',
     showingBooks: []
   }
 
+  // 更新查询关键字
   updateQueryBooks = query => {
     this.setState({query: query})
     BooksAPI.search(query).then(books=>{

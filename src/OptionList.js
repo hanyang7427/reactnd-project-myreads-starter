@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+
+// 选项组件
 class OptionList extends Component {
   render() {
     const options = this.props.options

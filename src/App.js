@@ -8,6 +8,7 @@ import ListShelfs from './ListShelfs'
 
 class BooksApp extends React.Component {
   state = {
+    // 接口返回值和显示文字的对应关系
     shelfs: {read: 'read', currentlyReading: 'currentlyReading', wantToRead: 'wantToRead', none: 'none'},
     books: []
   }
@@ -16,6 +17,7 @@ class BooksApp extends React.Component {
   componentDidMount() {
     BooksAPI.getAll().then((books) => this.setState(()=>({books: books})))
   }
+  // 改变书所属书架
   changeBookShelf = (book, shelf) => {
     this.setState((prevState)=>{
       prevState.books.splice(prevState.books.indexOf(book),1)
