@@ -7,8 +7,6 @@
       <change beforePath="$PROJECT_DIR$/../Contacts/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Contacts/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../books/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../books/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reactnd-contacts-complete/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reactnd-contacts-complete/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OptionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/OptionList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchBooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchBooks.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,16 +20,16 @@
       <file leaf-file-name="OptionList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OptionList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="456">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListShelfs.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListShelfs.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ListShelfs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="414">
               <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -52,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchBooks.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchBooks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchBooks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+            <state relative-caret-position="321">
+              <caret line="45" column="56" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="56" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -523,23 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListShelfs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OptionList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -550,12 +531,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/OptionList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchBooks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        <state relative-caret-position="321">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="56" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListShelfs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
