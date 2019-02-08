@@ -14,7 +14,7 @@ class SearchBooks extends Component {
   updateQueryBooks = query => {
     this.setState({query: query})
     BooksAPI.search(query).then(books=>{
-      if (books === undefined) {this.setState({showingBooks:[]})}
+      if (!Array.isArray(books)) {this.setState({showingBooks: []})}
       else {this.setState({showingBooks: books})}
     })
   }
@@ -40,11 +40,16 @@ class SearchBooks extends Component {
               <li key={book.id}>
                 <div className="book">
                   <div className="book-top">
-                    <div className="book-cover" style={{ width: 128, height: 193, backgroundImage: `url(${book.imageLinks.smallThumbnail})` }}></div>
+                    <div className="book-cover" style={
+                      { width: 128,
+                        height: 193,
+                        backgroundImage: book.imageLinks ? `url(${book.imageLinks.smallThumbnail})`: 'url(http://placehold.it/129x193)'}}>
+                    </div>
                     <div className="book-shelf-changer">
                       <OptionList
                         options = {this.props.shelfs}
                         book = {book}
+                        books = {this.props.books}
                         changeBookShelf = {this.props.changeBookShelf}
                       />
                     </div>
